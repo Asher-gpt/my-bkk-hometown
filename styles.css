@@ -62,7 +62,6 @@ img {
 
 .asher-img {
     width: 150px;
-    height: fit-content;
     border-radius: 10px;
 }
 
@@ -70,7 +69,6 @@ img {
     width: 400px;
     padding: 20px;
     margin: 0 auto;
-    display: flex;
     justify-content: space-around;
     text-align: center;
     background: #ddebf8;
@@ -80,6 +78,10 @@ img {
     margin-top: 50px;
     margin-bottom: 50px;
     gap: 20px;
+    width: 100%;
+    max-width: 450px; /* or whatever max size you want */
+    height: auto;
+    display: flex;
 }
 
 .activity-section {
